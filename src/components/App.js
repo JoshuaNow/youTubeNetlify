@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 import useVideos from "../hooks/useVideos";
-
+require("dotenv").config();
 //TODO for after break, learn grid system with semantic ui
 //TODO fix default video when we re search another video
 // to make jsx resuable we use components, to make functions and calls, reusable was can do custom hooks
